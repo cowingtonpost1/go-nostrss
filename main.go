@@ -65,7 +65,7 @@ func main() {
 			}
 			cache.Mu.Unlock()
 
-			content := strings.TrimSpace(item.Title) + "\n" + item.Link
+			content := "We're pleased to share Revuo #Monero " + strings.TrimSpace(item.Title) + " is now available!\n" + item.Link
 
 			var createdAt int64
 			if item.PublishedParsed != nil {
